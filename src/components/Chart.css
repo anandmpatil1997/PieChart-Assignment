@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex-grow: 1;
+  text-align: center;
+  margin-top: 40px;
+}
