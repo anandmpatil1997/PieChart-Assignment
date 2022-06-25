@@ -1,0 +1,31 @@
+h1 {
+  line-height: 0.95;
+  color: #66fcf1;
+  font-weight: 900;
+  font-size: 150px;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .main {
+    display: none;
+  }
+}
+.title {
+  font-size: 5rem;
+  font-family: "Knewave", cursive;
+  text-transform: uppercase;
+  color: white;
+  -webkit-transform: skew(-5deg, -5deg) rotate(5deg);
+  transform: skew(-5deg, -5deg) rotate(5deg);
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  text-shadow: 1px 1px gray, 2px 2px gray, 3px 3px lightgray, 4px 4px blue,
+    5px 5px lime, 6px 6px gray, 7px 7px purple, 8px 8px pink, 9px 9px blue,
+    10px 10px green, 11px 11px 15px rgba(0, 0, 0, 0.5);
+}

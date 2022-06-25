@@ -7,12 +7,14 @@ import "./styles.css";
 import bootstrap from "bootstrap";
 import Sidebar from "./components/Sidebar";
 import { Routes, Route } from "react-router-dom";
+import Welcome from "./components/Welcome";
 export default function App() {
   return (
     <div className="App">
       <Navbar />
       <Sidebar />
       <Routes>
+        <Route path="/" element={<Welcome />} />
         <Route path="/gender" element={<Genderchart />} />
         <Route path="/employement" element={<Employeechart />} />
       </Routes>
